@@ -1,0 +1,141 @@
+<html>
+<head>
+<link rel="stylesheet" href="foodcubo.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="jquery-3.4.1.min.js"></script>
+<style>
+.mySlides {display:none;
+height:300px;
+width:1000px}
+</style>
+</head>
+<body>
+<header>
+<div class="container"> 
+<div class="main">
+	<div class="menu">
+		<div class="left-menu">
+			<img src="./images/cubologo.png" class="logopic"/>
+			<h1>Foodcubo</h1>
+			<input type="text" placeholder="Search for location" class="type">
+		</div>
+		<div class="right-menu">
+			<ul>
+				<li><a href="foodcubo.html">Home</a></li>
+				<li><a href="logincubo.html">Login</a></li>
+				<li><a href="signcubo.html">Sign up</a></li>
+				<li><a href="#">Cart</a></li>
+		</div>
+	</div>
+	</div>
+	<div class=" w3-display-container">
+  <img class="mySlides" src="./images/cubooffer.jpg" style="width:100%">
+  <img class="mySlides" src="./images/cubooffer1.jpg" style="width:100%">
+  <img class="mySlides" src="./images/cubooffer2.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+	<br><br>
+		<h2 id="white">Food delivery in Patna</h2> <br>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+				<a href="#"><img src="./images/pic1.png" class="img-fluid img-thumbnail"/></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+				<a href="#"><img src="./images/pic2.png" class="img-fluid img-thumbnail"/></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+				<a href="#"><img src="./images/pic3.png" class="img-fluid img-thumbnail"/></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+				<a href="#"><img src="./images/pic4.png" class="img-fluid img-thumbnail"/></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+				<a href="#"><img src="./images/pic5.png" class="img-fluid img-thumbnail"/></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+				<a href="#"><img src="./images/pic6.png" class="img-fluid img-thumbnail"/></a>
+		</div>
+	</div><br><br><br>
+		<h2 id="white">Cities Near You</h2>
+		<table>
+		<th><a href="#">Gaya</a></th>
+		<th><a href="#">Bhagalpur</a></th>
+		<th><a href="#">Purnia</a></th>
+		<th><a href="#">Arrah</a></th>
+		<tr>
+		<td><a href="#">Katihar</a></td>
+		<td><a href="#">Mungal</a></td>
+		<td><a href="#">Bettiah</a></td>
+		<td><a href="#">Dehri</a></td>
+		</tr>
+		</table>
+</div>
+	<div class="lower">
+			<div class="left">
+				<div class="leftlow">
+					<img src="./images/cubologo.png" class="logopic"/>
+					<h1>Foodcubo</h1>
+				</div>
+				<br><br><br><br><br><br>
+				<div class="leftdown">
+					<img src="./images/play.png" class="logopic1"/>
+				</div>
+			</div>
+			<div class="right">
+				<div class="rightlow">
+					<ul>
+						<li><br><br>About Foodcubo</li><br>
+						<li>Get Help</li>
+					</ul>
+				</div>
+				<br><br><br><br>
+				<h2>Follow us on</h2><br>
+				<a href="#"><i class="fa fa-2x fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-2x fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-2x fa-linkedin"></i><br></a>
+			</div>
+			
+	</div>
+<script>
+	$(document).ready(function(){
+		$('.rightpic').click(function(){
+			$('.offerpic').hide();
+			$('.offerpic2').hide();
+			$('.offerpic1').show();
+		});
+		
+		$('.leftpic').click(function(){
+			$('.offerpic1').hide();
+			$('.offerpic2').show();
+		});
+		
+	})
+</script>
+</body>
+</html>

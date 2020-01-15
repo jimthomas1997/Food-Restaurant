@@ -1,0 +1,312 @@
+* {margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+
+body{
+	font-size:20px;
+	color:white;
+	background-image:linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)),url("light1.jpg");
+	background-size:cover;
+}
+
+.logopic{
+	height:90px;
+	z-index:0;
+	margin-left:30px;
+}
+
+.offerpic{
+	width:100%;
+	height:300px;
+}
+
+.offerpic1{
+	width:100%;
+	height:300px;
+	display:none;
+	
+}
+.offerpic2{
+	width:100%;
+	height:300px;
+	display:none;
+	
+}
+.menu{
+	width:100%;
+	height:150px;
+	background-color:rgba(0,0,0,0.4);
+}
+
+.left-menu{
+	float:left;
+	width:75%;
+	margin-left:40px;
+}
+
+.left-menu h1{
+	
+	font-family:Jazz LET, fantasy;
+	color:white;
+	
+}
+
+.right-menu{
+	float:right;
+	width:25%;
+}
+
+.right-menu ul li{
+	font-family: 'Montserrat';
+	display:inline-block;
+	list-style:none;
+	color:white;
+	font-weight:bold;
+	margin-left:10px;
+	font-size:16px;
+}
+.right-menu ul{
+	margin-top:-95px;
+	margin-left:47px;
+}
+
+.type{
+	float:right;
+	width:550px;
+	margin-top:-90px;
+	margin-right:90px;
+}
+
+#white{
+	color:white;
+}
+table{
+	height:200px;
+	width:100%;
+	color:white;
+	font-size:17px;
+	font-weight:bold;
+}
+th{
+	width:25%;
+}
+
+.lower{
+	width:100%;
+	height:500px;
+	background-color:rgb(56,56,56);
+	color:lightgray;
+
+}
+
+
+.rightlow ul li{
+	display:block;
+	list-style:none;
+	color:white;
+	font-weight:bold;
+	margin-left:20px;
+	font-size:20px;
+}
+
+.right{
+	float:right;
+	margin-top:-350px;
+	margin-right:70px;
+}
+
+.leftlow{
+	margin-left:100px;
+}
+.leftlow h1{
+	font-family:Jazz LET, fantasy;
+}
+.logopic1{
+	margin-left:80px;
+	height:60px;
+}
+.right-menu ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+.right-menu ul li a:hover{
+	color:orange;
+}
+
+.row a:hover{
+	border:3px solid orange;
+}
+
+th a:hover{
+	text-decoration:none;
+	color:orange;
+}
+td a:hover{
+	text-decoration:none;
+	color:orange;
+}
+table a{
+	text-decoration:none;
+	color:white;
+}
+.rightpic{
+	z-index:1;
+	margin-top:-160px;
+	margin-left:97.5%;
+}
+.leftpic{
+	z-index:1;
+	margin-top:-160px;
+}
+
+.login-box{
+	width:300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:white;
+}
+.login-box h1{
+	border-bottom: 4px solid orange;
+	font-size:40px;
+	margin-bottom:60px;
+}
+.text-box {
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:8px 0;
+	border-bottom: 1px solid orange;
+	margin:8px 0;
+		
+}
+
+.btn1{
+	color:orange;
+	width:100%;
+	cursor:pointer;
+}
+.text-box input{
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size:20px;
+}
+.btn1:hover{
+	background-color:gray;
+}
+.text-box i{
+	width:30px;
+	float:left;
+	margin-top:10px;
+
+}
+
+.right i{
+	margin-right:40px;
+}
+
+@media only screen and (max-width:1198px){
+	.type{
+	margin-right:0px;
+	width:510px;
+}
+.right-menu ul li{
+	font-family: 'Montserrat';
+	display:block;
+	list-style:none;
+	color:white;
+	font-weight:bold;
+	margin-left:20px;
+	font-size:15px;
+}
+}
+
+@media only screen and (max-width:992px){
+	.type{
+	margin-right:0px;
+	width:350px;
+}
+.right-menu ul li{
+	font-family: 'Montserrat';
+	display:block;
+	list-style:none;
+	color:white;
+	font-weight:bold;
+	margin-left:20px;
+	font-size:15px;
+}
+}
+
+@media only screen and (max-width:768px){
+	.type{
+	margin-right:0px;
+	width:200px;
+}
+.right-menu ul li{
+	font-family: 'Montserrat';
+	display:block;
+	list-style:none;
+	color:white;
+	font-weight:bold;
+	margin-left:20px;
+	font-size:15px;
+}
+.right h2{
+	font-size:23px;
+	margin-left:30px;
+}
+.right i{
+	width:10px;
+	margin-left:20px;
+}
+}
+
+@media only screen and (max-width:768px){
+.leftlow{
+	margin-left:10px;
+}
+.leftdown{
+	margin-left:-90px;
+}
+}
+
+@media only screen and (max-width:519px){
+	.type{
+	margin-right:0px;
+	width:200px;
+}
+.right-menu ul li{
+	font-family: 'Montserrat';
+	display:block;
+	list-style:none;
+	color:white;
+	font-weight:bold;
+	margin-left:20px;
+	font-size:14px;
+}
+}
+
+
+.right ul li:hover{
+	color:orange;
+	cursor:pointer;
+}
+
+.leftdown img:hover{
+	cursor:pointer;
+	border:2px solid orange;
+}
+
+@media only screen and (max-width:1198px){
+.right-menu ul{
+	margin-top:-120px;
+}
+}
+
+
+
