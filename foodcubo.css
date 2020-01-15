@@ -6,7 +6,7 @@ box-sizing:border-box;
 body{
 	font-size:20px;
 	color:white;
-	background-image:linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)),url("light1.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)),url("./images/light1.jpg");
 	background-size:cover;
 }
 
